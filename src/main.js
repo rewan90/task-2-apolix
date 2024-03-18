@@ -1,11 +1,24 @@
-import './assets/main.css'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+// import 'bootstrap/dist/css/bootstrap.css'
+// import "bootstrap"
+// import "foundation-sites/dist/css/foundation.min.css";
+// import "foundation-sites";
+import { register } from "swiper/element/bundle";
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
-const app = createApp(App)
+library.add(faPhone);
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-app.use(router)
+("font-awesome-icon", FontAwesomeIcon);
+import "./assets/main.css";
 
-app.mount('#app')
+const app = createApp(App);
+register();
+
+app.use(router);
+
+app.mount("#app");

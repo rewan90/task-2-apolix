@@ -9,10 +9,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@egjs/flicking-plugins": "^4.7.1",
+    "@egjs/vue3-flicking": "^4.11.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "bulma": "^0.9.4",
+    "flickity": "^3.0.0",
+    "foundation-sites": "^6.8.1",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1",
+    "swiper": "^11.0.7",
     "vue": "^3.4.21",
+    "vue-flickity": "^1.2.1",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@types/jquery": "^3.5.29",
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.1.5",
     "vite-plugin-vue-devtools": "^7.0.16"
